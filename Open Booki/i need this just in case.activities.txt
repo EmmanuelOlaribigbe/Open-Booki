@@ -1,7 +1,0 @@
-i need this just in case.activities-container {
-    display: inline-flex;               /* Turns on flexbox */
-    /* justify-content: space-between; Spaces the cards equally apart */
-    /* flex-wrap: wrap;            Allows the cards to wrap to the next line if they don't fit */
-    gap: 50px;               /* Adds space between the cards */
-    width: calc(3 * 300px + 2 * 100px);  
-}
