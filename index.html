@@ -11,7 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/1bb9ba5e4a.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/fab95b7b01.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <header>
         <a href="index.html"> <img src="images/logo/Booki.png" alt="BookiLogo" class="desktop-logo"></a>
@@ -36,11 +39,18 @@
          <input type="search" class="search-input" placeholder="Marseille, France" >
          <button id="search-button">Search</button>
         </form>
+
+        <form class="search-form-small">
+            <span class="pin-icon"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></span>
+            <input type="search" class="search-input" placeholder="Marseille, France">
+            <input type="submit" class="search-button" value="" >
+        </form>
+        
     </article>
 
     <section class="filter">
-        <div id="filter-buttons">
-           <strong>Filters</strong>
+       
+           <strong class="filter-p">Filters</strong>
             <button class="filter-button" id="LC">
                 <span class="filter-icon">
                  <i class="fa solid fa-money-bill-wave"></i>
@@ -71,12 +81,11 @@
             
 
         
-        </div>
+        
     
     </section>
 
     <article class="info">
-        <div class="info-container"></div>
           <span class="info-icon">
             <i class="fa-solid fa-info"></i>
         </span>
@@ -140,7 +149,7 @@
                    </div>
                 </div>
                 <div class="card">
-                 <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="card-img">
+                 <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="card-img">
                    <div class="card-content">
                        <h2 class="card-title">Auberge Le Panier</h2>
                        <p class="card-description">Night starting at 23€.</p>
@@ -152,7 +161,7 @@
                    </div>
                 </div>
                 <div class="card">
-                  <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina" class="card-img">
+                  <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina" class="card-img">
                    <div class="card-content">
                        <h2 class="card-title">Hotel chez Amina</h2>
                        <p class="card-description">Night starting at 96€.</p>
@@ -180,11 +189,13 @@
                         <div class="aside-card-content">
                             <h2 class="aside-card-title">Morning Sun Hotel</h2>
                             <p class="aside-card-description">Night starting at 128€.</p>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
                         </div>
                     </div>
                     <div class="aside-cards">
@@ -192,11 +203,13 @@
                            <div class="aside-card-content">
                                <h2 class="aside-card-title">Au coeur de l'eau Bed and Breakfast</h2>
                                <p class="aside-card-description">Night starting at 71€.</p>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star"></span>
+                               <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                     <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                            </div>
                        </div>
                        <div class="aside-cards">
@@ -204,11 +217,13 @@
                            <div class="aside-card-content">
                                <h2 class="aside-card-title">Tout bleu et Blanc Hotel</h2>
                                <p class="aside-card-description">Night starting at 68€.</p>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star checked"></span>
-                               <span class="fa fa-star"></span>
+                               <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                            </div>
                        </div>
             </div>
@@ -220,7 +235,7 @@
 
 
     <section class="activities-section">
-        <span class="activites-header"><h1>Activities in Marseille</h1></span>
+        <div class="activites-header"><h1>Activities in Marseille</h1></div>
             <div class="activities-container">
                    <div class="activites-cards">
                      <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Old Port" class="activites-card-img custom-height1">
