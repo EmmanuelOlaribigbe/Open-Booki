@@ -51,10 +51,6 @@ header {
     display: none;
 }
 
-.nav-links ul {
-    /* border: 1px solid purple; */
- }
-
 .nav-links ul li {
     list-style: none;
     display: inline-block;
