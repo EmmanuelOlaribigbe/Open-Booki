@@ -85,6 +85,14 @@ header {
     padding: 20px 1% 20px 2%;
 }
 
+.welcome-text h2{
+    font-size: 30px;
+}
+
+.welcome-text p{
+    font-size: 20px;
+}
+
 .sub-header{
     padding-bottom: 20px;
 }
@@ -312,7 +320,7 @@ padding: 20px 1% 20px 2%;
 }
 
 .activites-header{
-    padding: 50px;
+    padding: 30px;
 }
 
 .activities-container {
@@ -404,7 +412,16 @@ padding: 20px 1% 20px 2%;
     header{
        display: block;
     }
-   
+
+    h2 {
+        font-size: 20px;
+        
+    }
+
+    .welcome-text p {
+        font-size: 20px;
+        
+    }
 
     .desktop-logo{
         display: none;
@@ -449,12 +466,12 @@ padding: 20px 1% 20px 2%;
   }
     
   .welcome-text h2 {
-    font-size: 40px;
+    font-size: 20px;
     padding: 0 0 0 20px;
   }
 
   .welcome-text p{
-    font-size: 40px;
+    font-size: 20px;
     padding: 0 0 0px 20px;
   }
 
@@ -479,7 +496,11 @@ padding: 20px 1% 20px 2%;
     border-bottom-left-radius: 25%;
     border: 2px solid #F2F2F2;
 }
-
+ 
+.mag-glass{
+    position: absolute;
+    right: 39px;
+}
 .search-input {
     width: 100%;
     font-size: 5.5vw;
@@ -501,7 +522,11 @@ padding: 20px 1% 20px 2%;
         display: none;
     }
    
-  
+    .filter-p{
+        padding-right: 50%;
+        padding-bottom: 20px;
+    }
+
     .filter{
         width: 90%;
     padding-left: 5%;
@@ -582,7 +607,6 @@ padding: 20px 1% 20px 2%;
 
 .aside-cards{
     display: flex;
-    /* min-width: 320px; */
     max-width: 600px;
     max-height: 200px;
     padding: 0;
@@ -669,6 +693,10 @@ padding: 20px 1% 20px 2%;
     color: var(--primary-color);
 }
 
+.activites-header{
+    padding: 30px 10px;
+}
+
 .activities-section {
     
     width: 90%;
@@ -701,12 +729,12 @@ padding: 20px 1% 20px 2%;
 }
 
 .custom-height1 {
-    height: 240px;
+    height: 230px;
    
 }
 
 .custom-height2 {
-    height: 250px;
+    height: 230px;
 
 }
 
@@ -737,7 +765,7 @@ padding: 20px 1% 20px 2%;
 }
 
 .footer-col h4{
-    font-size: 30px;
+    font-size: 15px;
     color: black;
     text-transform: capitalize;
     margin-bottom: 25px;
